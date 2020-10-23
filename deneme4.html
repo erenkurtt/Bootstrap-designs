@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deneme 4</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+    <script type="text/javascript" src="js/poppermin.js"> </script>
+    <script type="text/javascript" src="js/jquery.js"> </script>
+    <script type="text/javascript" src="js/bootstrap.min.js"> </script>
+    <script src="https://kit.fontawesome.com/51faf3aa68.js" crossorigin="anonymous"></script>
+    <style>
+        html, body {
+            padding: 0px;
+            background-color: #ede8e8;
+            height:100%;
+            
+        }
+        .logo{
+            border-radius:0px;
+            
+            font-size:200%;
+            font-weight:bolder;
+            outline:none;
+            border:0px;
+            box-shadow:none;
+            background-color:transparent;
+        }
+        .prologue{
+            
+            background-size: cover;
+            
+            margin:0px;
+            border-radius:0px;
+
+        }
+
+        input[type=text] {
+        width: 50%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        border-radius: 30px;
+        background-color: rgb(212, 230, 245);
+        opacity: 0.4;
+        box-sizing: border-box;
+        border: 3px solid rgb(63, 39, 109);
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        outline: none;
+        }
+
+        input[type=text]:focus {
+        border: 3px solid #555;
+        opacity: 0.8;
+        }
+
+        .navbuttons {
+            margin-right: 20px;
+            border-radius: 30px;
+        }
+        .heightFixer{
+        height: 100%;
+        }
+        
+        .toggler {
+            border-radius: 0px;
+            transition: 0.3s;
+            color: whitesmoke;
+        }
+
+        .toggler:hover {
+            background-color: #3d3c41;
+        }
+
+        .mainpage {
+            height: 100%;
+            background-image: url("img/history.jpg");
+            background-size: cover;
+            border-radius: 0%;
+        }
+
+        @media screen and (max-width:575px){
+            .navbuttons {
+                border-radius: 0px;
+                box-shadow: none;
+                margin-right:0px;
+            }
+        }
+        @media screen and (max-width:990px ){
+            .heightFixer {
+                height:max-content;
+            }
+        }
+        @media screen and (max-height:600px ){
+            .heightFixer {
+                height:max-content;
+            }
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="jumbotron prologue p-0 heightFixer" style="background-image: url('img/blog1.jpg'); " id="prologue1">
+
+        <div class="navbar navbar-expand-sm p-0" id="navbar1">
+
+            <button class="navbar-toggler m-0 toggler " type="button" data-toggle="collapse" data-target="#menu" style="padding: 1em 35px; outline:none;">
+                <span class="fas fa-bars"></span>
+            </button>
+            <button class="btn btn-info logo" style="padding: 3% 35px;"><i class="fas fa-book"></i> Blog Dealer</button>
+
+ 
+            <div class="pr-0 collapse navbar-collapse justify-content-end" id="menu">
+                <ul class="navbar-nav ">
+                    
+                    <li class="navbar-item">
+                        <a class="nav-link  btn btn-secondary navbuttons font-weight-bold" href="" style="padding: 1em 2em;">Login</a>
+                    </li>
+    
+                    <li class="navbar-item">
+                        <a class="nav-link  btn btn-info navbuttons font-weight-bold" href="" style="padding: 1em 2em;">Sign up</a>
+                    </li>
+    
+                </ul>
+            </div >
+        </div>
+
+
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="display-2 font-weight-bolder  mt-2 mb-2" style="color: rgb(233, 227, 213);">Create your own Blog.</h2>
+                    <p class="lead mt-4 " style="color:rgb(233, 227, 213); font-size: 2em;"> Share your knowledge, art, thoughts and love. This is completely free. 
+                         Create your own blog then get started!  </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 ">
+
+                    <form class="mt-4 mb-4">
+                        <input  type="text" placeholder="Search some blogs"
+                          aria-label="Search" >
+                        <i class="fas fa-search  " aria-hidden="true" style="font-size: 2em;"></i>
+                    </form>
+                        <a class=" btn btn-outline-light font-weight-bold mt-4 mb-4" href="" style="padding: 1em 2em; font-size:larger;">CREATE A NEW ACCOUNT</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        
+    <div class="jumbotron mt-0" style="margin-bottom: 0px;  
+    background-color:rgb(7, 1, 14); border-radius: 0px; color: blanchedalmond;">
+    Eren Kurt Copyright by 2020
+    </div>
+
+</body>
+
+</html>

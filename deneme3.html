@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deneme 3</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+    <script type="text/javascript" src="js/poppermin.js"> </script>
+    <script type="text/javascript" src="js/jquery.js"> </script>
+    <script type="text/javascript" src="js/bootstrap.min.js"> </script>
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+
+        .mainpage {
+            height: 100%;
+            background-image: url("img/deneme3-large6.jpg");
+            background-size: cover;
+            border-radius: 0%;
+        }
+
+        .mainpage2 {
+            height: 100%;
+            opacity: 0.8;
+            background-image: url("img/deneme3-large7.jpg");
+            background-size: cover;
+            border-radius: 0%;
+        }
+
+        .mainpage3 {
+            height: 100%;
+            opacity: 0.9;
+            background-image: url("img/deneme3-large8.jpg");
+            background-size: cover;
+            border-radius: 0%;
+        }
+
+        .menu {
+            position: absolute;
+            top: 5%;
+            left: 300px;
+            z-index: 9;
+            justify-content: end;
+        }
+
+        .nav-items {
+            color: antiquewhite;
+            text-align: center;
+        }
+
+        .nav-items:hover {
+            color: rgb(255, 255, 255);
+        }
+
+        .navToggler {
+            background-image: url("img/navbar.png");
+
+
+        }
+
+        .button1:hover {
+            background-color: burlywood;
+        }
+
+        .anime::before {
+            content: 'Art Design';
+            opacity: 0;
+            animation: 2s fadeIn;
+            animation-fill-mode: forwards;
+            transition: opacity 1.5s;
+        }
+
+        .anime2::before {
+            content: 'A workplace for the high-level labour.';
+            opacity: 0;
+            animation: 5s fadeIn;
+            animation-fill-mode: forwards;
+            transition: opacity 1.5s;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="height: 100%;">
+
+
+
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" style="height: 100%;">
+
+            <div class="carousel-item active" style="height: 100%;">
+                <div class="jumbotron mainpage text-center mb-0 " style="height: 100%;">
+                    <div class="container">
+                        <div class="row mt-4 ">
+                            <div class="col-md-12">
+
+                                <h1 id="maintitle" class="display-1 mb-5 anime "
+                                    style="color:rgb(255, 255, 255); transition-delay: 2s; opacity: 1;"></h1>
+
+                                <p class="lead anime2 mb-5"
+                                    style="color: rgb(255, 255, 255); font-size: 2em; transition-delay: 2s; opacity: 1;">
+                                </p>
+
+                                <button class="btn btn-dark mt-5 pt-4 pb-4 pl-5 pr-5 " 
+                                style="border-radius: 0px;  font-weight: bold;">GET STARTED</button>
+
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item" style="height: 100%;">
+                <div class="jumbotron mainpage2 text-center mb-0 " style="height: 100%;">
+                    <div class="container">
+                        <div class="row mt-4">
+                            <div class="col-md-12">
+
+                                <h1 id="maintitle" class="display-1 mb-5 anime "
+                                    style="color:rgb(255, 255, 255); transition-delay: 2s; opacity: 1;"></h1>
+
+                                <p class="lead anime2 mb-5"
+                                    style="color: rgb(255, 255, 255); font-size: 2em; transition-delay: 2s; opacity: 1;">
+                                </p>
+
+                                <button class="btn btn-dark mt-5 pt-4 pb-4 pl-5 pr-5 " 
+                                style="border-radius: 0px;  font-weight: bold;">GET STARTED</button>
+
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="carousel-item" style="height: 100%;">
+                <div class="jumbotron mainpage3 text-center mb-0 " style="height: 100%;">
+                    <div class="container">
+                        <div class="row mt-4 ">
+                            <div class="col-md-12">
+
+                                <h1 id="maintitle" class="display-1 mb-5 anime "
+                                    style="color:rgb(24, 22, 22); transition-delay: 2s; opacity: 1;"></h1>
+
+                                <p class="lead anime2 mb-5"
+                                    style="color: rgb(32, 30, 30); font-size: 2em; transition-delay: 2s; opacity: 1;">
+                                </p>
+
+                                <button class="btn btn-dark mt-5 pt-4 pb-4 pl-5 pr-5 " 
+                                style="border-radius: 0px;  font-weight: bold;">GET STARTED</button>
+
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+
+
+            </div>
+
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+
+        </div>
+
+
+
+        <div class="jumbotron mt-0" style="margin-bottom: 0px;  
+             background-color:rgb(7, 1, 14); border-radius: 0px; color: blanchedalmond;">
+            Eren Kurt Copyright by 2020
+        </div>
+
+    </div>    
+    
+
+
+        <script>
+
+            if (window.innerWidth > 300 && window.innerWidth < 380) {
+                $("#maintitle").removeClass("display-1");
+                $("#maintitle").addClass("display-2");
+            }
+            else if (window.innerWidth < 300) {
+                $("#maintitle").removeClass("display-1");
+                $("#maintitle").addClass("display-3");
+            }
+
+        </script>
+
+
+</body>
+
+</html>
